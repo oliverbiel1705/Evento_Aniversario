@@ -1,0 +1,45 @@
+.event {
+    &__container {
+        text-align: center;
+
+        &__details {
+            max-width: 500px;
+            margin: 0 auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            &__title {
+                color: rgb(255, 90, 25);
+                margin-bottom: 30px;
+            }
+
+            &__text {
+                max-width: 50%;
+            }
+
+            @media (max-width: 640px) {
+                max-width: 400px;
+            }
+        }
+
+        &--one {
+            background-image: url('../images/entradas.jpg');
+            background-size: 30%;
+        }
+
+        &--two {
+            background-image: url('../images/juices.jpg');
+            background-size: 20%;
+        }
+
+        &--three {
+            background-image: url('../images/beer.jpg');
+            background-size: 30%;
+        }
+
+        &--four {
+            background-image: url('../images/dessert.jpg');
+            background-size: 20%;
+        }
+    }
+}
