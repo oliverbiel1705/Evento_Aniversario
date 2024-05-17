@@ -2,7 +2,7 @@ AOS.init();
 
 const contadorDeTempo = setInterval(function() {
     var dataAtual = moment();
-    var dataEvento = moment('2024-03-20 18:00:00');
+    var dataEvento = moment('2024-05-17 19:00:00');
     var tempoAnos = dataEvento.clone().diff(dataAtual, 'years');
     var tempoMeses =  dataEvento.clone().diff(dataAtual.clone().add(tempoAnos, 'years'), 'months');
     var tempoDias =  dataEvento.clone().diff(dataAtual.clone().add(tempoAnos, 'years').add(tempoMeses, 'months'), 'days');
